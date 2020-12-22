@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Basico</title>
+
+    <script type= "text/javascript">
+
+        function validad()
+    
+        {
+            var usuario = document.getElementById("usuario").value;
+            var contraseña = document.getElementeId("contraseña").value;    
+
+            if(usuario=="Alexis" && contraseña == "12345")
+            {
+                alert("Usuario y contraseña Validos")
+            }
+            else
+            {
+                alert("verifique sus datos");
+            
+            }
+
+        }
+
+    </script>
+
+</head>
+<body>
+        <center>
+                <table>
+                    <tr>
+                        <td><label>Usuario: </label></td> <td> <input type="text" name="usuario" id="Usuario"></td>
+                    </tr>
+                    <tr>
+                        <td><labe> Contraseñas </labe></td> <td><input type="password" name="pass" id="pass"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"> <input type="button" name="btnverifica" onclick="validar()" value="verificar" style="width: 100%"> </td>
+                    </tr>
+
+
+                </table>
+
+
+
+
+
+        </center>
+
+
+
+
+</body>
+</html>
